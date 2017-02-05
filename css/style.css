@@ -50,11 +50,13 @@ body{
 		font-size: 28px;
 		top: 20%;
 		left: 13%;
+		-webkit-animation: fadein 3s ease-out forwards;
 	}
 
 	.main{
 		width: 80%;
 		top: 30%;
 		left: 12%;
+		-webkit-animation: fadein 5s ease-in 1s forwards;
 	}
 }
