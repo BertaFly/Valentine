@@ -9,7 +9,7 @@
 body{
 	background: url(../img/bg.png);
 	position: relative;
-	width: 100vh;
+	height: 100vh;
 }
 
 	.daniel{
@@ -45,7 +45,7 @@ body{
 @media screen and (max-width: 326px){
 	body{
 		position: relative;
-		height: 100vh;
+		width: 100vh;
 	}
 	
 	.daniel{
