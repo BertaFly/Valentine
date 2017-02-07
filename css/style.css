@@ -45,6 +45,7 @@ body{
 @media screen and (max-width: 326px){
 	body{
 		position: relative;
+		overflow: hidden;
 	}
 	
 	.daniel{
