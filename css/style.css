@@ -13,22 +13,20 @@ body{
 }
 
 	.daniel{
+		padding-top: 15%;
+		text-align: center;
 		font-family: 'Milkshake';
 		font-size: 60px;
 		opacity: 0;
 		-webkit-animation: fadein 5s ease-out forwards;
-		position: absolute;
-		top: 10%;
-		left: 28%;
 	}
 
 	.main{
-		width: 35%;
+		width: 40%;
+		margin: 0 auto;
+		padding-top: 20px;
 		opacity: 0;
 		-webkit-animation: fadein 5s ease-in 1s forwards;
-		position: absolute;
-		top: 22%;
-		left: 32.5%;
 	}
 
 @-webkit-keyframes fadein {
@@ -45,16 +43,24 @@ body{
 }
 
 @media screen and (max-width: 326px){
+	body{
+		position: relative;
+		height: 100vh;
+	}
 	
 	.daniel{
+		position: absolute;
 		font-size: 28px;
 		top: 20%;
-		left: 12%;
+		left: 13%;
+		-webkit-animation: fadein 4s ease-out forwards;
 	}
 
 	.main{
 		width: 80%;
+		position: absolute;
 		top: 30%;
-		left: 10%;
+		left: 12%;
+		-webkit-animation: fadein 5s ease-in 1s forwards;
 	}
 }
