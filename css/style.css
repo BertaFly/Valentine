@@ -45,7 +45,6 @@ body{
 @media screen and (max-width: 326px){
 	body{
 		position: relative;
-		width: 100vh;
 	}
 	
 	.daniel{
